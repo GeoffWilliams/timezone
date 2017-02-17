@@ -1,0 +1,15 @@
+{
+  "name": "geoffwilliams/timezone",
+  "version": "0.1.0",
+  "author": "geoffwilliams",
+  "summary": "manage the horrendous mess of timezones with Puppet. Why not lobby your MP to abolish them? Then we won't need such nonsense",
+  "license": "Apache-2.0",
+  "source": "https://github.com/GeoffWilliams/timezone",
+  "project_page": "https://github.com/GeoffWilliams/timezone",
+  "issues_url": "https://github.com/GeoffWilliams/timezone/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"herculesteam-augeasproviders_shellvar","version_requirement":"2.2.1"}
+  ],
+  "data_provider": null
+}
