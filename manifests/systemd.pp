@@ -8,7 +8,7 @@ class timezone::systemd(
 ) {
 
   $current_timezone = "timedatectl status | awk '/Time zone/ {print \$3}'"
-  $test_timezone    = "${current_timezone} | grep -E /^${zone}$/"
+  $test_timezone    = "${current_timezone} | grep -E '^${zone}$'"
   $fix_timezone     = "timedatectl set-timezone ${zone}"
 
   exec { "Set timezone to ${zone}":

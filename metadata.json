@@ -1,6 +1,6 @@
 {
   "name": "geoffwilliams/timezone",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "geoffwilliams",
   "summary": "manage the horrendous mess of timezones with Puppet. Why not lobby your MP to abolish them? Then we won't need such nonsense",
   "license": "Apache-2.0",
